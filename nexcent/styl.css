@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+
+:root{
+    --d-grey: #4D4D4D;
+    --secondary-black: #263238;
+    --grey: #717171;
+    --i-grey: #89939E;
+    --silver: #F5F7FA;
+    --white: #FFFFFF;
+    --primary: #28CB8B;
+    --info: #2194f3;     
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Inter', sans-serif;
+}
+
+header{
+    width: 100½;
+    height: 58.76px;
+    background-color: var(--white);
+    font-size: 11.24px;
+    color: var(--d-grey);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: 400;
+}
+
+.tabbar, a{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 1em;
+    color: var(--d-grey);
+}
+
+.button {
+    color: var(--white);
+    background-color: var(--primary);
+    width: 133.25px;
+    height: 36.49px;
+    border-radius: 2.78px;
+    font-size: 1em;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5.57px;
+}
+
+.section1{
+    width: 100%;
+    height: 416.95px;
+    background: var(--silver);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.body{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.body span:nth-child(1){
+    color: var(--d-grey);
+    font-size: 44.55px;
+    font-weight: 600;
+}
+
+.body span:nth-child(2){
+    color: var(--primary);
+    font-size: 44.55px;
+    font-weight: 600;
+}
+
+.body p{
+    color: var(--grey);
+    font-size: 11.14px;
+    font-weight: 400;
+}
+
+.button2{
+    width: 89.55px;
+    height: 36.49px;
+    background: var(--primary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2.78px;
+    font-size: 11.14px;
+    color: var(--white);
+    margin-top: 20px;
+}
+
+.clients{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+    margin-top: 28px;
+}
+
+.clients h2{
+    font-weight: 600;
+    font-size: 25.06px;
+    color: var(--d-grey);
+}
+
+.clients p{
+    font-weight: 400;
+    font-size: 11.14px;
+    color: var(--grey);
+}
+
+.imglogo{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.section2{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    height: 84.57px;
+    margin-top: 42px;
+    margin-bottom: 28px;
+    gap: 10px;
+
+}
+
+.section2 h2{
+    font-size: 25.02px;
+    font-weight: 600;
+    color: var(--d-grey);
+}
+
+.section2 p{
+    font-size: 11.14px;
+    font-weight: 400;
+    color: var(--grey);
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 196.1px;
+    margin-top: 20px;
+}
+
+.box{
+    width: 208.12px;
+    height: 176.4px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    border: 1px solid var(--silver);
+    border-radius:5.57px ;
+    gap: 5.57px;
+}
+
+.box h2{
+    font-weight: 600;
+    font-size: 19.49px;
+    color: var(--d-grey);
+}
+
+.box p{
+    font-weight: 400;
+    font-size: 11.14px;
+    color: var(--grey);
+}
+
+main{
+    width: 100%;
+    height: 301.4px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 300px;
+    
+}
+
+main h3{
+    font-weight: 600;
+    font-size: 25.06px;
+    color: var(--d-grey);
+    text-align: start;
+}
+
+main p{
+    font-weight: 400;
+    font-size: 14px;
+    display: flex;
+    padding: 10px 0px 10px 0px;
+    text-align: start;
+}
+
+footer{
+    width: 100%;
+    height: 147px;
+    background-color: var(--secondary-black);
+    
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: baseline;
+    color: var(--white);
+    padding: 30px;
+}
+
+.footer-info li, a{
+    list-style: none;
+    color: var(--white);
+    font-weight: 400;
+    font-size: 14px;
+    
+}
+
+.title{
+    font-weight: 600;
+    font-size: 24px;
+}

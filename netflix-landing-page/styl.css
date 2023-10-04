@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    background-image: url(Plugin/ES-es-20210425-popsignuptwoweeks-perspective_alpha_website_small.png);
+    background-size: cover;
+
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    padding: 50px 185px;
+    gap: 590px;
+
+}
+
+.launge {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+
+}
+
+a, select{
+    width: 162px;
+    height: 46px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 3.84px;
+}
+
+select {
+    border: 0.5px solid white;
+    background: none;
+    padding: 10px 45px;
+    background-image: url(Plugin/world.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+
+a{
+    background: rgb(214, 0, 15);
+    text-decoration: none;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+h1{
+    width: 791px;
+    height: 276px;
+    color: white;
+    font-weight: 600;
+    font-size: 61px;
+    text-align: center;
+    padding-left: 390px;
+}
+
+main p:nth-child(2){
+    color: white;
+    font-size: 28px;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main p:nth-child(3){
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main input{
+    width: 615px;
+    height: 72px;
+    font-weight: 400;
+    padding-left: 20px;
+}
+
+button{
+    width: 250px;
+    height: 69px;
+    background: rgb(214, 0, 15);
+    border: none;
+    font-weight: 400;
+    color: white;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
+    
+}
